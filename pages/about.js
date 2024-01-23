@@ -47,7 +47,7 @@ del && del.addEventListener('click', function () {
             return car.id != elId
         })
         localStorage.setItem('cars', JSON.stringify(data))
-        window.location.assign('file:///C:/Users/ACER/Desktop/5-6-uygaVazifa/index.html')
+        window.location.assign('http://127.0.0.1:5500/index.html')
     }
 
 })
