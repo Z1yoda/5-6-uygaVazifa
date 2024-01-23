@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-4 ">
+        <h1 class="text-center">Update Page</h1>
+        <div class="form">
+            <form id="form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nomi*</label>
+                    <input autocomplete="off" type="text" class="form-control" id="name" placeholder="Enter name..." />
+                </div>
+                <div class="mb-3">
+                    <label for="img" class="form-label">Rasmi*</label>
+                    <input type="text" class="form-control" id="img" placeholder="Enter img..." />
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Narxi*</label>
+                    <input type="number" class="form-control" id="price" placeholder="Enter price..." />
+                </div>
+                <div class="mb-3">
+                    <label for="type" class="form-label">Turi*</label>
+                    <select id="type" class="form-select" aria-label="Default select example">
+                        <option selected>Choose car type...</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                        <option value="Daewoo">Daewoo</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Ravon">Ravon</option>
+                        <option value="BMW">BMW</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="year" class="form-label">Yili</label>
+                    <input type="month" id="year" class="form-control" name="start" min="2000-23" value="2018-05" />
+                </div>
+                <div class="mb-3">
+                    <label for="color" class="form-label">Rangi*</label>
+                    <select id="color" class="form-select" aria-label="Default select example">
+                        <option selected>Choose car color...</option>
+                        <option value="Qizil">Qizil</option>
+                        <option value="Qora">Qora</option>
+                        <option value="Oq">Oq</option>
+                        <option value="Ko'k">Ko'k</option>
+                        <option value="Sariq">Sariq</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="desc" class="form-label">Izoh</label>
+                    <textarea class="form-control" id="desc" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary w-25" id="button">Saqlash</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./update.js" type="module"></script>
+</body>
+
+</html>
